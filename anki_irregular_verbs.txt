@@ -1,0 +1,135 @@
+#separator:tab
+#html:true
+#tags column:3
+#deck:Irregular Verbs 131
+arise — возникать	<b>arose</b><br><b>arisen</b><br><br><span style="color:#777">Не путать с rise: arise – arose – arisen, rise – rose – risen.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+awake — просыпаться	<b>awoke</b><br><b>awoken</b><br><br><span style="color:#777">В таблице awoke/awoken; также встречается правильное awaked.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+be — быть	<b>was, were</b><br><b>been</b><br><br><span style="color:#777">Past: was (ед. ч.), were (мн. ч.). В ответе нужны обе формы.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+bear — нести; рождаться, рожать	<b>bore</b><br><b>born/borne</b><br><br><span style="color:#777">born — родиться; borne — нести/рожать (в пассиве).</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+beat — бить	<b>beat</b><br><b>beaten</b><br><br><span style="color:#777">Past не меняется: beat – beat – beaten.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+become — становиться	<b>became</b><br><b>become</b><br><br><span style="color:#777">Как come: become – became – become.</span><br><br><span style="color:#999">День 1 · ABA</span>	irregular_verbs Day1 ABA
+begin — начинать	<b>began</b><br><b>begun</b><br><br><span style="color:#777">Рифмуется с drink – drank – drunk.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+bend — гнуть(ся)	<b>bent</b><br><b>bent</b><br><br><span style="color:#777">Как lend – lent – lent.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+bind — связывать	<b>bound</b><br><b>bound</b><br><br><span style="color:#777">Как find – found – found.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+bite — кусать	<b>bit</b><br><b>bitten</b><br><br><span style="color:#777">Не путать с beat – beat – beaten.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+blow — дуть	<b>blew</b><br><b>blown</b><br><br><span style="color:#777">Серия -ew/-own: blow, grow, know, throw.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+break — ломать	<b>broke</b><br><b>broken</b><br><br><span style="color:#777">Как speak – spoke – spoken и wake – woke – woken.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+breed — выращивать, разводить	<b>bred</b><br><b>bred</b><br><br><span style="color:#777">Как feed – fed – fed и lead – led – led.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+bring — приносить	<b>brought</b><br><b>brought</b><br><br><span style="color:#777">Как buy – bought – bought и think – thought – thought.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+broadcast — вещать	<b>broadcast</b><br><b>broadcast</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 1 · AAA</span>	irregular_verbs Day1 AAA
+build — строить	<b>built</b><br><b>built</b><br><br><span style="color:#777">Как send – sent – sent.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+burn — жечь; гореть	<b>burnt/burned</b><br><b>burnt/burned</b><br><br><span style="color:#777">Два равноправных варианта: burnt/burned.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+burst — взрываться	<b>burst</b><br><b>burst</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 1 · AAA</span>	irregular_verbs Day1 AAA
+buy — покупать	<b>bought</b><br><b>bought</b><br><br><span style="color:#777">Как bring – brought – brought.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+can — мочь; уметь	<b>could</b><br><b>—</b><br><br><span style="color:#777">Модальный: Participle II нет; Past — could.</span><br><br><span style="color:#999">День 1 · MODAL</span>	irregular_verbs Day1 MODAL
+catch — ловить	<b>caught</b><br><b>caught</b><br><br><span style="color:#777">Как teach – taught – taught.</span><br><br><span style="color:#999">День 1 · ABB</span>	irregular_verbs Day1 ABB
+choose — выбирать	<b>chose</b><br><b>chosen</b><br><br><span style="color:#777">Как freeze – froze – frozen.</span><br><br><span style="color:#999">День 1 · ABC</span>	irregular_verbs Day1 ABC
+come — приходить, приезжать	<b>came</b><br><b>come</b><br><br><span style="color:#777">Participle II совпадает с Infinitive.</span><br><br><span style="color:#999">День 2 · ABA</span>	irregular_verbs Day2 ABA
+cost — стоить	<b>cost</b><br><b>cost</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 2 · AAA</span>	irregular_verbs Day2 AAA
+cut — резать	<b>cut</b><br><b>cut</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 2 · AAA</span>	irregular_verbs Day2 AAA
+deal — иметь дело	<b>dealt</b><br><b>dealt</b><br><br><span style="color:#777">Как mean – meant – meant.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+dig — копать	<b>dug</b><br><b>dug</b><br><br><span style="color:#777">Как spin – spun – spun.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+do — делать	<b>did</b><br><b>done</b><br><br><span style="color:#777">Как go – went – gone.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+draw — рисовать	<b>drew</b><br><b>drawn</b><br><br><span style="color:#777">Как withdraw – withdrew – withdrawn.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+dream — мечтать	<b>dreamt/dreamed</b><br><b>dreamt/dreamed</b><br><br><span style="color:#777">Два варианта: dreamt/dreamed.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+drink — пить	<b>drank</b><br><b>drunk</b><br><br><span style="color:#777">Серия -ink/-ank/-unk: drink, sink, shrink.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+drive — вести (машину)	<b>drove</b><br><b>driven</b><br><br><span style="color:#777">Как ride – rode – ridden.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+eat — кушать, есть	<b>ate</b><br><b>eaten</b><br><br><span style="color:#777">Не путать с fall – fell – fallen.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+fall — падать	<b>fell</b><br><b>fallen</b><br><br><span style="color:#777">Не путать с feel – felt – felt.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+feed — кормить	<b>fed</b><br><b>fed</b><br><br><span style="color:#777">Как breed – bred – bred.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+feel — чувствовать	<b>felt</b><br><b>felt</b><br><br><span style="color:#777">Как leave – left – left.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+fight — драться, сражаться	<b>fought</b><br><b>fought</b><br><br><span style="color:#777">Как bring – brought – brought.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+find — находить	<b>found</b><br><b>found</b><br><br><span style="color:#777">Не путать с found (основывать) — это правильный глагол.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+fly — летать	<b>flew</b><br><b>flown</b><br><br><span style="color:#777">Как blow – blew – blown.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+forbid — запрещать	<b>forbade</b><br><b>forbidden</b><br><br><span style="color:#777">Как forget и forgive — приставка for-.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+forget — забывать	<b>forgot</b><br><b>forgotten</b><br><br><span style="color:#777">Не путать с get – got – got.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+forgive — прощать	<b>forgave</b><br><b>forgiven</b><br><br><span style="color:#777">Как give – gave – given.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+freeze — замораживать	<b>froze</b><br><b>frozen</b><br><br><span style="color:#777">Как choose – chose – chosen.</span><br><br><span style="color:#999">День 2 · ABC</span>	irregular_verbs Day2 ABC
+get — получать	<b>got</b><br><b>got</b><br><br><span style="color:#777">В таблице got/got; американское gotten — другой вариант.</span><br><br><span style="color:#999">День 2 · ABB</span>	irregular_verbs Day2 ABB
+give — давать	<b>gave</b><br><b>given</b><br><br><span style="color:#777">Как forgive – forgave – forgiven.</span><br><br><span style="color:#999">День 3 · ABC</span>	irregular_verbs Day3 ABC
+go — идти	<b>went</b><br><b>gone</b><br><br><span style="color:#777">Как do – did – done.</span><br><br><span style="color:#999">День 3 · ABC</span>	irregular_verbs Day3 ABC
+grind — молоть	<b>ground</b><br><b>ground</b><br><br><span style="color:#777">Как find – found – found.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+grow — расти	<b>grew</b><br><b>grown</b><br><br><span style="color:#777">Как blow – blew – blown.</span><br><br><span style="color:#999">День 3 · ABC</span>	irregular_verbs Day3 ABC
+hang — висеть; вешать	<b>hung</b><br><b>hung</b><br><br><span style="color:#777">hung — вешать/висеть; hanged — казнить (другое значение).</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+have — иметь	<b>had</b><br><b>had</b><br><br><span style="color:#777">Как make – made – made.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+hear — слышать	<b>heard</b><br><b>heard</b><br><br><span style="color:#777">Не путать с bear – bore – born.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+hide — прятать(ся)	<b>hid</b><br><b>hidden</b><br><br><span style="color:#777">Как bite – bit – bitten.</span><br><br><span style="color:#999">День 3 · ABC</span>	irregular_verbs Day3 ABC
+hit — ударять, попадать	<b>hit</b><br><b>hit</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 3 · AAA</span>	irregular_verbs Day3 AAA
+hold — держать	<b>held</b><br><b>held</b><br><br><span style="color:#777">Не путать с stand – stood – stood.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+hurt — причинять боль	<b>hurt</b><br><b>hurt</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 3 · AAA</span>	irregular_verbs Day3 AAA
+keep — держать	<b>kept</b><br><b>kept</b><br><br><span style="color:#777">Как sleep – slept – slept.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+know — знать	<b>knew</b><br><b>known</b><br><br><span style="color:#777">Как blow – blew – blown.</span><br><br><span style="color:#999">День 3 · ABC</span>	irregular_verbs Day3 ABC
+lay — класть	<b>laid</b><br><b>laid</b><br><br><span style="color:#777">lay – laid – laid (класть). Не путать с lie – lay – lain (лежать).</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+lead — вести	<b>led</b><br><b>led</b><br><br><span style="color:#777">Пишется led, а не lead; ср. read – read – read.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+lean — опираться	<b>leant/leaned</b><br><b>leant/leaned</b><br><br><span style="color:#777">Два варианта: leant/leaned.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+learn — учить	<b>learnt/learned</b><br><b>learnt/learned</b><br><br><span style="color:#777">Два варианта: learnt/learned.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+leave — оставлять; покидать	<b>left</b><br><b>left</b><br><br><span style="color:#777">Как feel – felt – felt.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+lend — одалживать	<b>lent</b><br><b>lent</b><br><br><span style="color:#777">Как bend – bent – bent.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+let — давать возможность	<b>let</b><br><b>let</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 3 · AAA</span>	irregular_verbs Day3 AAA
+lie — лежать	<b>lay</b><br><b>lain</b><br><br><span style="color:#777">lie – lay – lain (лежать). Ложь — lie – lied (правильный); класть — lay – laid.</span><br><br><span style="color:#999">День 3 · ABC</span>	irregular_verbs Day3 ABC
+light — освещать	<b>lit/lighted</b><br><b>lit/lighted</b><br><br><span style="color:#777">Два варианта: lit/lighted.</span><br><br><span style="color:#999">День 3 · ABB</span>	irregular_verbs Day3 ABB
+lose — терять	<b>lost</b><br><b>lost</b><br><br><span style="color:#777">Не путать с loose (свободный) — это прилагательное.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+make — делать	<b>made</b><br><b>made</b><br><br><span style="color:#777">Как have – had – had.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+may — мочь; иметь возможность	<b>might</b><br><b>—</b><br><br><span style="color:#777">Модальный: Participle II нет; Past — might.</span><br><br><span style="color:#999">День 4 · MODAL</span>	irregular_verbs Day4 MODAL
+mean — значить	<b>meant</b><br><b>meant</b><br><br><span style="color:#777">Как deal – dealt – dealt.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+meet — встречать	<b>met</b><br><b>met</b><br><br><span style="color:#777">Как feed – fed – fed.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+mistake — ошибаться	<b>mistook</b><br><b>mistaken</b><br><br><span style="color:#777">Как take – took – taken.</span><br><br><span style="color:#999">День 4 · ABC</span>	irregular_verbs Day4 ABC
+misunderstand — неправильно понимать	<b>misunderstood</b><br><b>misunderstood</b><br><br><span style="color:#777">Как stand – stood – stood.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+overcome — преодолевать	<b>overcame</b><br><b>overcome</b><br><br><span style="color:#777">Как come – came – come.</span><br><br><span style="color:#999">День 4 · ABA</span>	irregular_verbs Day4 ABA
+pay — платить	<b>paid</b><br><b>paid</b><br><br><span style="color:#777">Как say – said – said.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+prove — доказывать	<b>proved</b><br><b>proved/proven</b><br><br><span style="color:#777">Два варианта Participle II: proved/proven.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+put — класть	<b>put</b><br><b>put</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 4 · AAA</span>	irregular_verbs Day4 AAA
+quit — покидать	<b>quit/quitted</b><br><b>quit/quitted</b><br><br><span style="color:#777">Два варианта: quit/quitted.</span><br><br><span style="color:#999">День 4 · AAA</span>	irregular_verbs Day4 AAA
+read — читать	<b>read</b><br><b>read</b><br><br><span style="color:#777">Пишется одинаково, но произносится: /riːd/ – /red/ – /red/.</span><br><br><span style="color:#999">День 4 · AAA</span>	irregular_verbs Day4 AAA
+ride — ездить верхом	<b>rode</b><br><b>ridden</b><br><br><span style="color:#777">Как write – wrote – written.</span><br><br><span style="color:#999">День 4 · ABC</span>	irregular_verbs Day4 ABC
+ring — звонить	<b>rang</b><br><b>rung</b><br><br><span style="color:#777">Серия -ing/-ang/-ung: ring, sing, swim.</span><br><br><span style="color:#999">День 4 · ABC</span>	irregular_verbs Day4 ABC
+rise — подниматься	<b>rose</b><br><b>risen</b><br><br><span style="color:#777">Как arise – arose – arisen.</span><br><br><span style="color:#999">День 4 · ABC</span>	irregular_verbs Day4 ABC
+run — бежать	<b>ran</b><br><b>run</b><br><br><span style="color:#777">Participle II совпадает с Infinitive.</span><br><br><span style="color:#999">День 4 · ABA</span>	irregular_verbs Day4 ABA
+saw — пилить	<b>sawed</b><br><b>sawn</b><br><br><span style="color:#777">Не путать с saw — Past от see.</span><br><br><span style="color:#999">День 4 · ABC</span>	irregular_verbs Day4 ABC
+say — говорить	<b>said</b><br><b>said</b><br><br><span style="color:#777">Как pay – paid – paid.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+see — видеть	<b>saw</b><br><b>seen</b><br><br><span style="color:#777">Не путать с saw (пилить).</span><br><br><span style="color:#999">День 4 · ABC</span>	irregular_verbs Day4 ABC
+seek — искать	<b>sought</b><br><b>sought</b><br><br><span style="color:#777">Как think – thought – thought.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+sell — продавать	<b>sold</b><br><b>sold</b><br><br><span style="color:#777">Как tell – told – told.</span><br><br><span style="color:#999">День 4 · ABB</span>	irregular_verbs Day4 ABB
+send — посылать	<b>sent</b><br><b>sent</b><br><br><span style="color:#777">Как spend – spent – spent.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+set — устанавливать	<b>set</b><br><b>set</b><br><br><span style="color:#777">Все три формы одинаковые; ср. sit – sat – sat.</span><br><br><span style="color:#999">День 5 · AAA</span>	irregular_verbs Day5 AAA
+sew — шить	<b>sewed</b><br><b>sewn/sewed</b><br><br><span style="color:#777">Два варианта Participle II: sewn/sewed.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+shake — трясти	<b>shook</b><br><b>shaken</b><br><br><span style="color:#777">Как take – took – taken.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+shine — светить; сиять	<b>shone</b><br><b>shone</b><br><br><span style="color:#777">Как show – showed – shown.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+shoot — стрелять	<b>shot</b><br><b>shot</b><br><br><span style="color:#777">Не путать с shut – shut – shut.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+show — показывать	<b>showed</b><br><b>shown</b><br><br><span style="color:#777">Как shine – shone – shone.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+shrink — сокращаться, сжиматься	<b>shrank</b><br><b>shrunk</b><br><br><span style="color:#777">Как drink – drank – drunk.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+shut — закрывать	<b>shut</b><br><b>shut</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 5 · AAA</span>	irregular_verbs Day5 AAA
+sing — петь	<b>sang</b><br><b>sung</b><br><br><span style="color:#777">Как ring – rang – rung.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+sink — тонуть	<b>sank</b><br><b>sunk</b><br><br><span style="color:#777">Как drink – drank – drunk.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+sit — сидеть	<b>sat</b><br><b>sat</b><br><br><span style="color:#777">Не путать с set – set – set.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+sleep — спать	<b>slept</b><br><b>slept</b><br><br><span style="color:#777">Как keep – kept – kept.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+slide — скользить	<b>slid</b><br><b>slid</b><br><br><span style="color:#777">Не путать с bite – bit – bitten.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+smell — пахнуть; нюхать	<b>smelt</b><br><b>smelt</b><br><br><span style="color:#777">В таблице smelt; также допустимо smelled.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+speak — говорить	<b>spoke</b><br><b>spoken</b><br><br><span style="color:#777">Как break – broke – broken.</span><br><br><span style="color:#999">День 5 · ABC</span>	irregular_verbs Day5 ABC
+spell — читать по буквам	<b>spelt</b><br><b>spelt</b><br><br><span style="color:#777">В таблице spelt; также допустимо spelled.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+spend — тратить	<b>spent</b><br><b>spent</b><br><br><span style="color:#777">Как send – sent – sent.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+spin — вращаться	<b>spun</b><br><b>spun</b><br><br><span style="color:#777">Как dig – dug – dug.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+split — расщеплять(ся)	<b>split</b><br><b>split</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 5 · AAA</span>	irregular_verbs Day5 AAA
+spoil — портить	<b>spoilt/spoiled</b><br><b>spoilt/spoiled</b><br><br><span style="color:#777">Два варианта: spoilt/spoiled.</span><br><br><span style="color:#999">День 5 · ABB</span>	irregular_verbs Day5 ABB
+spread — распространять(ся)	<b>spread</b><br><b>spread</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 5 · AAA</span>	irregular_verbs Day5 AAA
+stand — стоять	<b>stood</b><br><b>stood</b><br><br><span style="color:#777">Как understand – understood – understood.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+steal — красть	<b>stole</b><br><b>stolen</b><br><br><span style="color:#777">Не путать с stick – stuck – stuck.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+stick — приклеивать	<b>stuck</b><br><b>stuck</b><br><br><span style="color:#777">Как strike – struck – struck.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+strike — бить; бастовать	<b>struck</b><br><b>struck</b><br><br><span style="color:#777">Как stick – stuck – stuck.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+swear — клясться	<b>swore</b><br><b>sworn</b><br><br><span style="color:#777">Как wear – wore – worn.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+swell — вздуваться	<b>swelled</b><br><b>swollen</b><br><br><span style="color:#777">Как show – showed – shown.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+swim — плавать	<b>swam</b><br><b>swum</b><br><br><span style="color:#777">Как sing – sang – sung.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+take — брать	<b>took</b><br><b>taken</b><br><br><span style="color:#777">Как shake – shook – shaken.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+teach — учить	<b>taught</b><br><b>taught</b><br><br><span style="color:#777">Как catch – caught – caught.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+tear — рвать	<b>tore</b><br><b>torn</b><br><br><span style="color:#777">Как wear – wore – worn.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+tell — рассказывать, говорить	<b>told</b><br><b>told</b><br><br><span style="color:#777">Как sell – sold – sold.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+think — думать	<b>thought</b><br><b>thought</b><br><br><span style="color:#777">Как bring – brought – brought.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+throw — бросать	<b>threw</b><br><b>thrown</b><br><br><span style="color:#777">Как blow – blew – blown.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+thrust — толкать	<b>thrust</b><br><b>thrust</b><br><br><span style="color:#777">Все три формы одинаковые.</span><br><br><span style="color:#999">День 6 · AAA</span>	irregular_verbs Day6 AAA
+understand — понимать	<b>understood</b><br><b>understood</b><br><br><span style="color:#777">Как stand – stood – stood.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+wake — просыпаться; будить	<b>woke</b><br><b>woken</b><br><br><span style="color:#777">Как break – broke – broken.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+wear — носить (одежду)	<b>wore</b><br><b>worn</b><br><br><span style="color:#777">Как swear – swore – sworn.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+weave — ткать	<b>wove</b><br><b>woven</b><br><br><span style="color:#777">Как wear – wore – worn.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+win — выигрывать	<b>won</b><br><b>won</b><br><br><span style="color:#777">Как run – ran – run.</span><br><br><span style="color:#999">День 6 · ABB</span>	irregular_verbs Day6 ABB
+withdraw — брать назад; отзывать	<b>withdrew</b><br><b>withdrawn</b><br><br><span style="color:#777">Как draw – drew – drawn.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC
+write — писать	<b>wrote</b><br><b>written</b><br><br><span style="color:#777">Как ride – rode – ridden.</span><br><br><span style="color:#999">День 6 · ABC</span>	irregular_verbs Day6 ABC

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" id="themeColorMeta" content="#f5f5f7">
+<title>English Lab — глаголы, модальные и 12 времён</title>
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("english-lab-theme");
+    var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = saved === "dark" || saved === "light" ? saved : (dark ? "dark" : "light");
+  } catch (e) {
+    document.documentElement.dataset.theme = "light";
+  }
+})();
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ambient" aria-hidden="true">
+  <span class="orb orb-a"></span>
+  <span class="orb orb-b"></span>
+  <span class="orb orb-c"></span>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="brand" data-goto="verbs" aria-label="English Lab — на главную">
+      <span class="brand-mark">IV</span>
+      <span class="brand-name">English <em>Lab</em></span>
+    </button>
+    <nav class="main-nav" aria-label="Разделы">
+      <button class="nav-link active" data-goto="verbs">Глаголы</button>
+      <button class="nav-link" data-goto="modals">Модальные</button>
+      <button class="nav-link" data-goto="tenses">12 времён</button>
+      <button class="nav-link" data-goto="plans">Планы</button>
+    </nav>
+    <div class="topbar-actions">
+      <button class="icon-btn theme-toggle" id="themeBtn" type="button" title="Включить тёмную тему" aria-label="Переключить тему" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 14.1A8.4 8.4 0 0 1 9.9 3.8a8.5 8.5 0 1 0 10.3 10.3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.4v2.2M12 19.4v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.4 12h2.2M19.4 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" id="resetBtn" title="Сбросить прогресс" aria-label="Сбросить прогресс">↺</button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+
+  <!-- ================= ГЛАГОЛЫ ================= -->
+  <section class="panel active" id="panel-verbs" data-panel="verbs">
+    <div class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span>Irregular verbs · 131</div>
+        <h1>Три формы.<br><span class="gradient-text">Полная уверенность.</span></h1>
+        <p class="lead">Все неправильные глаголы из Appendix, стр. 250–255. Учите паттернами, проверяйте карточками и сдавайте экзамен без паники.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="heroCards">Учить карточками</button>
+          <button class="btn btn-quiet" data-goto="plans">План на 5 часов</button>
+        </div>
+        <div class="hero-meta">
+          <span><b id="statLearned">0</b> / 131 выучено</span>
+          <span><b id="statLearning">0</b> в процессе</span>
+          <span><b id="statAccuracy">—</b> точность</span>
+          <span><b id="statToday">0</b> сегодня</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glass-orb"></div>
+        <div class="float-card card-progress">
+          <div class="progress-ring" id="progressRing" style="--p:0"><span id="progressText">0%</span></div>
+          <div class="float-copy"><span>Общий прогресс</span><b>131 глагол</b></div>
+        </div>
+        <div class="float-card card-word float-word">
+          <span class="mini-label">Сегодняшняя тройка</span>
+          <b>arise</b>
+          <span>arose · arisen</span>
+        </div>
+        <div class="float-card card-stat">
+          <span class="mini-label">Ответов сегодня</span>
+          <b id="statToday2">0</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="mode-row">
+      <div class="segmented" id="verbModes" role="tablist" aria-label="Режимы глаголов">
+        <button class="seg active" data-mode="table" role="tab">Таблица</button>
+        <button class="seg" data-mode="cards" role="tab">Карточки</button>
+        <button class="seg" data-mode="quiz" role="tab">Быстрый тест</button>
+        <button class="seg" data-mode="exam" role="tab">Экзамен</button>
+      </div>
+      <div class="mode-caption" id="verbModeCaption">131 глагол · 3 формы</div>
+    </div>
+
+    <div class="subpanels" id="verbSubpanels">
+      <!-- таблица -->
+      <div class="subpanel active" id="verb-table">
+        <div class="surface">
+          <div class="toolbar">
+            <input class="search" id="searchInput" type="search" placeholder="Поиск: arise, летать, arose…" autocomplete="off">
+            <select class="select" id="groupFilter" aria-label="Группа форм">
+              <option value="all">Все группы</option>
+              <option value="AAA">AAA — все одинаковые</option>
+              <option value="ABB">ABB — Past = Participle</option>
+              <option value="ABA">ABA — Participle = Infinitive</option>
+              <option value="ABC">ABC — все разные</option>
+              <option value="MODAL">Модальные</option>
+            </select>
+            <select class="select" id="dayFilter" aria-label="День">
+              <option value="all">Все дни</option>
+              <option value="1">День 1 · стр. 250</option>
+              <option value="2">День 2 · стр. 251</option>
+              <option value="3">День 3 · стр. 252</option>
+              <option value="4">День 4 · стр. 253</option>
+              <option value="5">День 5 · стр. 254</option>
+              <option value="6">День 6 · стр. 255</option>
+            </select>
+            <label class="toggle"><input type="checkbox" id="hideRu"> Скрыть перевод</label>
+            <button class="btn btn-small btn-quiet" id="printBtn">Печать</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>№</th><th>Infinitive</th><th>Past</th><th>Participle II</th><th>Перевод</th><th>Статус</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
+          <div class="legend">
+            <span><i style="background:#eeeef0"></i>новый</span>
+            <span><i style="background:#ff3b30"></i>не знаю</span>
+            <span><i style="background:#ff9f0a"></i>учу</span>
+            <span><i style="background:#30d158"></i>выучено</span>
+            <span style="margin-left:auto">«Выучено» = 2 уверенных ответа · нажми на кружок, чтобы отметить вручную</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- карточки -->
+      <div class="subpanel" id="verb-cards">
+        <div class="study-toolbar">
+          <div class="toolbar-left">
+            <select class="select" id="cardMode" aria-label="Какие карточки">
+              <option value="all">Все глаголы</option>
+              <option value="unlearned">Только невыученные</option>
+              <option value="hard">Трудные</option>
+            </select>
+            <select class="select" id="cardDay" aria-label="День">
+              <option value="all">Все дни</option>
+              <option value="1">День 1</option><option value="2">День 2</option>
+              <option value="3">День 3</option><option value="4">День 4</option>
+              <option value="5">День 5</option><option value="6">День 6</option>
+            </select>
+            <button class="btn btn-small btn-quiet" id="shuffleCards">Перемешать</button>
+          </div>
+          <div class="counter" id="cardCounter">1 / 131</div>
+        </div>
+
+        <div class="flashcard" id="flashcard">
+          <div class="card-top">
+            <span class="tag" id="cardDayPill">День 1</span>
+            <span class="tag tag-green" id="cardPattern">ABC</span>
+          </div>
+          <div class="card-body">
+            <div class="card-word" id="cardWord">arise</div>
+            <div class="card-ru" id="cardRu">возникать</div>
+            <div class="card-answer" id="cardAnswer">
+              <div class="answer-cell"><span>Past (V2)</span><b id="cardPast">arose</b></div>
+              <div class="answer-cell"><span>Participle II (V3)</span><b id="cardPp">arisen</b></div>
+            </div>
+            <div class="card-hint" id="cardHint">Вспомни две формы, затем открой ответ.</div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-small btn-quiet" id="speakCard">Произнести</button>
+            <button class="btn btn-primary" id="revealBtn">Показать ответ <kbd>Space</kbd></button>
+          </div>
+        </div>
+
+        <div class="grade-row" id="gradeActions" hidden>
+          <button class="grade" data-grade="0">Не знаю <kbd>1</kbd></button>
+          <button class="grade" data-grade="1">Почти <kbd>2</kbd></button>
+          <button class="grade" data-grade="2">Знаю <kbd>3</kbd></button>
+        </div>
+
+        <div class="surface empty-state" id="cardsDone" hidden>
+          <div class="empty-icon">✦</div>
+          <b>Круг пройден</b>
+          <span id="cardsDoneText">Ты прошёл все карточки в этой выборке.</span>
+          <div class="plan-actions" style="justify-content:center;margin-top:12px">
+            <button class="btn btn-primary btn-small" id="restartCards">Пройти ещё раз</button>
+            <button class="btn btn-quiet btn-small" id="toHardCards">Повторить трудные</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- быстрый тест -->
+      <div class="subpanel" id="verb-quiz">
+        <div class="quiz-wrap">
+          <div id="verbQuizSetup" class="surface">
+            <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:flex-start">
+              <div>
+                <h2 style="margin:0 0 5px;font-size:26px;letter-spacing:-.6px">Быстрый тест</h2>
+                <p style="margin:0;color:var(--muted);font-size:13.5px">Выбери правильную форму из четырёх вариантов. Ошибки попадут в «Трудные».</p>
+              </div>
+              <span class="tag tag-blue">4 варианта</span>
+            </div>
+            <div class="toolbar" style="margin-top:18px">
+              <select class="select" id="verbQuizCount">
+                <option value="10">10 вопросов</option>
+                <option value="20" selected>20 вопросов</option>
+                <option value="30">30 вопросов</option>
+                <option value="50">50 вопросов</option>
+              </select>
+              <select class="select" id="verbQuizType">
+                <option value="mixed">Past и Participle вперемешку</option>
+                <option value="p">Только Past (V2)</option>
+                <option value="pp">Только Participle II (V3)</option>
+              </select>
+              <button class="btn btn-primary" id="startVerbQuiz">Начать тест</button>
+            </div>
+          </div>
+
+          <div id="verbQuizPlay" hidden>
+            <div class="quiz-top">
+              <div id="verbQuizProgress">Вопрос 1 / 20</div>
+              <div id="verbQuizScore">Счёт: 0</div>
+            </div>
+            <div class="quiz-card">
+              <div class="quiz-prompt" id="verbQuizPrompt">Выбери Past (V2)</div>
+              <div class="quiz-word" id="verbQuizWord">arise</div>
+              <div class="quiz-ru" id="verbQuizRu">возникать</div>
+              <div class="options" id="verbQuizOptions"></div>
+              <div class="feedback" id="verbQuizFeedback"></div>
+              <div class="quiz-nav"><button class="btn btn-primary" id="verbQuizNext" hidden>Дальше <kbd>Enter</kbd></button></div>
+            </div>
+          </div>
+
+          <div id="verbQuizResult" class="surface" hidden></div>
+        </div>
+      </div>
+
+      <!-- экзамен -->
+      <div class="subpanel" id="verb-exam">
+        <div class="exam-wrap">
+          <div id="verbExamSetup" class="exam-card">
+            <h2 style="margin:0 0 5px;font-size:26px;letter-spacing:-.6px">Экзамен</h2>
+            <p style="margin:0 0 18px;color:var(--muted);font-size:13.5px">Напиши Past и Participle II по памяти. Для can и may поле V3 не нужно.</p>
+            <div class="toolbar" style="margin:0">
+              <select class="select" id="verbExamCount">
+                <option value="10">10 глаголов</option>
+                <option value="20" selected>20 глаголов</option>
+                <option value="30">30 глаголов</option>
+                <option value="131">Все 131</option>
+              </select>
+              <button class="btn btn-primary" id="startVerbExam">Начать экзамен</button>
+            </div>
+          </div>
+
+          <div id="verbExamPlay" hidden>
+            <div class="exam-card">
+              <div class="quiz-top">
+                <div id="verbExamProgress">Вопрос 1 / 20</div>
+                <div id="verbExamScore">Верно: 0</div>
+              </div>
+              <div class="quiz-prompt">Напиши формы</div>
+              <div class="quiz-word" id="verbExamWord">arise</div>
+              <div class="quiz-ru" id="verbExamRu">возникать</div>
+              <div class="exam-fields">
+                <div class="field"><label for="verbExamPast">Past (V2)</label><input id="verbExamPast" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="arose"></div>
+                <div class="field"><label for="verbExamPp">Participle II (V3)</label><input id="verbExamPp" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="arisen"></div>
+              </div>
+              <div class="exam-feedback" id="verbExamFeedback"></div>
+              <div class="exam-actions">
+                <button class="btn btn-primary" id="verbExamCheck">Проверить <kbd>Enter</kbd></button>
+                <button class="btn btn-quiet" id="verbExamNext" hidden>Дальше <kbd>Enter</kbd></button>
+              </div>
+            </div>
+          </div>
+
+          <div id="verbExamResult" class="exam-card" hidden></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= МОДАЛЬНЫЕ ================= -->
+  <section class="panel" id="panel-modals" data-panel="modals">
+    <div class="page-head">
+      <div class="eyebrow"><span class="eyebrow-dot"></span>Modal verbs · 18</div>
+      <h1>Не просто глагол.<br><span class="gradient-text">Отношение к действию.</span></h1>
+      <p class="lead">Модальные не называют действие — они показывают, насколько оно возможно, обязательно, разрешено или желательно. Выучи 6 пар и 6 заменителей, и половина экзаменационных ловушек исчезнет.</p>
+      <div class="pill-stats">
+        <div class="pill-stat"><b id="modalLearned">0</b><span>из 18 выучено</span></div>
+        <div class="pill-stat"><b>6</b><span>ключевых пар</span></div>
+        <div class="pill-stat"><b>15</b><span>вопросов в тесте</span></div>
+      </div>
+    </div>
+
+    <div class="mode-row">
+      <div class="segmented" id="modalModes" role="tablist" aria-label="Режимы модальных">
+        <button class="seg active" data-mode="table" role="tab">Таблица</button>
+        <button class="seg" data-mode="cards" role="tab">Карточки</button>
+        <button class="seg" data-mode="quiz" role="tab">Мини-тест</button>
+      </div>
+      <div class="mode-caption" id="modalModeCaption">18 модальных и заменителей</div>
+    </div>
+
+    <div class="subpanels" id="modalSubpanels">
+      <div class="subpanel active" id="modal-table">
+        <div class="surface">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Модальный</th><th>Значение</th><th>Функции</th><th>Формула</th><th>Past / Future</th><th>Пример</th><th>Ловушка</th></tr>
+              </thead>
+              <tbody id="modalTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="subpanel" id="modal-cards">
+        <div class="study-toolbar">
+          <div class="toolbar-left">
+            <select class="select" id="modalCardMode">
+              <option value="all">Все 18</option>
+              <option value="core">Только основные</option>
+              <option value="equivalent">Только заменители</option>
+              <option value="unlearned">Невыученные</option>
+            </select>
+            <button class="btn btn-small btn-quiet" id="modalShuffle">Перемешать</button>
+          </div>
+          <div class="counter" id="modalCounter">1 / 18</div>
+        </div>
+
+        <div class="flashcard modal-card" id="modalCard">
+          <div class="card-top">
+            <span class="tag" id="modalGroupPill">Основной</span>
+            <span class="tag tag-blue">Modal verb</span>
+          </div>
+          <div class="card-body">
+            <div class="card-word" id="modalWord">can</div>
+            <div class="card-ru" id="modalRu">мочь, уметь</div>
+            <div class="modal-functions" id="modalFunctions"></div>
+            <div class="card-answer" id="modalAnswer">
+              <div class="answer-cell"><span>Формула</span><b id="modalForm">can + V1</b></div>
+              <div class="answer-cell"><span>Past / Future</span><b id="modalPastFuture">could / will be able to</b></div>
+              <div class="answer-cell wide"><span>Пример</span><b id="modalExample">I can swim.</b><div class="example-ru" id="modalTranslation">Я умею плавать.</div></div>
+              <div class="answer-cell wide"><span>Ловушка</span><b class="modal-trap" id="modalTrap"></b></div>
+            </div>
+            <div class="card-hint" id="modalHint">Вспомни функции и формулу, затем открой ответ.</div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-small btn-quiet" id="modalSpeak">Произнести</button>
+            <button class="btn btn-primary" id="modalReveal">Показать ответ</button>
+          </div>
+        </div>
+
+        <div class="grade-row" id="modalGrade" hidden>
+          <button class="grade" data-grade="0">Повторить</button>
+          <button class="grade" data-grade="2">Знаю</button>
+        </div>
+
+        <div class="surface empty-state" id="modalDone" hidden>
+          <div class="empty-icon">✦</div>
+          <b>Круг пройден</b>
+          <span id="modalDoneText">Ты прошёл все карточки.</span>
+          <button class="btn btn-primary btn-small" id="modalRestart" style="margin-top:10px">Ещё раз</button>
+        </div>
+      </div>
+
+      <div class="subpanel" id="modal-quiz">
+        <div class="quiz-wrap">
+          <div id="modalQuizSetup" class="surface">
+            <h2 style="margin:0 0 5px;font-size:26px;letter-spacing:-.6px">Мини-тест по модальным</h2>
+            <p style="margin:0 0 18px;color:var(--muted);font-size:13.5px">Выбери модальный, который подходит по смыслу. В конце — объяснение каждой ошибки.</p>
+            <div class="toolbar" style="margin:0">
+              <select class="select" id="modalQuizCount">
+                <option value="10" selected>10 вопросов</option>
+                <option value="15">Все 15</option>
+              </select>
+              <button class="btn btn-primary" id="modalStartQuiz">Начать тест</button>
+            </div>
+          </div>
+          <div id="modalQuizPlay" hidden>
+            <div class="quiz-top"><div id="modalQuizProgress">Вопрос 1 / 10</div><div id="modalQuizScore">Счёт: 0</div></div>
+            <div class="quiz-card">
+              <div class="quiz-prompt">Выбери подходящий модальный</div>
+              <div class="quiz-word" id="modalQuizWord" style="font-size:clamp(24px,4vw,36px);line-height:1.25">She ___ swim.</div>
+              <div class="options" id="modalQuizOptions"></div>
+              <div class="feedback" id="modalQuizFeedback"></div>
+              <div class="quiz-nav"><button class="btn btn-primary" id="modalQuizNext" hidden>Дальше <kbd>Enter</kbd></button></div>
+            </div>
+          </div>
+          <div id="modalQuizResult" class="surface" hidden></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12 ВРЕМЁН ================= -->
+  <section class="panel" id="panel-tenses" data-panel="tenses">
+    <div class="page-head">
+      <div class="eyebrow"><span class="eyebrow-dot"></span>12 tenses · одна карта</div>
+      <h1>Не 12 правил.<br><span class="gradient-text">Одна система 3 × 4.</span></h1>
+      <p class="lead">Три времени — Past, Present, Future. Четыре взгляда на действие — Simple, Continuous, Perfect, Perfect Continuous. Собери их в карту, и формулы перестанут быть хаосом.</p>
+      <div class="pill-stats">
+        <div class="pill-stat"><b id="tenseLearned">0</b><span>из 12 отмечено</span></div>
+        <div class="pill-stat"><b>3 × 4</b><span>структура</span></div>
+        <div class="pill-stat"><b>12</b><span>вопросов в тесте</span></div>
+      </div>
+      <div class="timeline-strip" aria-hidden="true"><span>Past</span><span>Present</span><span>Future</span></div>
+    </div>
+
+    <div class="mode-row">
+      <div class="segmented" id="tenseModes" role="tablist" aria-label="Режимы времён">
+        <button class="seg active" data-mode="map" role="tab">Карта</button>
+        <button class="seg" data-mode="table" role="tab">Таблица</button>
+        <button class="seg" data-mode="quiz" role="tab">Тест</button>
+      </div>
+      <div class="mode-caption" id="tenseModeCaption">Нажми на время — откроется разбор</div>
+    </div>
+
+    <div class="subpanels" id="tenseSubpanels">
+      <div class="subpanel active" id="tense-map">
+        <div class="tense-map" id="tenseGrid"></div>
+        <div class="tense-detail" id="tenseDetail"></div>
+      </div>
+
+      <div class="subpanel" id="tense-table">
+        <div class="surface">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Время</th><th>Формула</th><th>Маркеры</th><th>Когда используем</th><th>Пример</th></tr></thead>
+              <tbody id="tenseTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="subpanel" id="tense-quiz">
+        <div class="quiz-wrap">
+          <div id="tenseQuizSetup" class="surface">
+            <h2 style="margin:0 0 5px;font-size:26px;letter-spacing:-.6px">Тест по временам</h2>
+            <p style="margin:0 0 18px;color:var(--muted);font-size:13.5px">Определи время по предложению и маркерам. В конце — разбор.</p>
+            <button class="btn btn-primary" id="startTenseQuiz">Начать тест · 12 вопросов</button>
+          </div>
+          <div id="tenseQuizPlay" hidden>
+            <div class="quiz-top"><div id="tenseQuizProgress">Вопрос 1 / 12</div><div id="tenseQuizScore">Счёт: 0</div></div>
+            <div class="quiz-card">
+              <div class="quiz-prompt">Какое время подходит?</div>
+              <div class="quiz-word" id="tenseQuizWord" style="font-size:clamp(24px,4vw,36px);line-height:1.25">She ___ to school every day.</div>
+              <div class="options" id="tenseQuizOptions"></div>
+              <div class="feedback" id="tenseQuizFeedback"></div>
+              <div class="quiz-nav"><button class="btn btn-primary" id="tenseQuizNext" hidden>Дальше <kbd>Enter</kbd></button></div>
+            </div>
+          </div>
+          <div id="tenseQuizResult" class="surface" hidden></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ПЛАНЫ ================= -->
+  <section class="panel" id="panel-plans" data-panel="plans">
+    <div class="page-head">
+      <div class="eyebrow"><span class="eyebrow-dot"></span>Study plans · 5 / 12 / 24 часа</div>
+      <h1>Выбери темп.<br><span class="gradient-text">Дойди до финиша.</span></h1>
+      <p class="lead">Три честных сценария: экспресс за 5 часов, база за 12 и глубокое освоение за 24. Отмечай блоки — прогресс сохранится.</p>
+    </div>
+
+    <div class="mode-row">
+      <div class="segmented" id="planModes" role="tablist" aria-label="Планы">
+        <button class="seg" data-plan="5h" role="tab">5 часов</button>
+        <button class="seg active" data-plan="12h" role="tab">12 часов</button>
+        <button class="seg" data-plan="24h" role="tab">24 часа</button>
+        <button class="seg" data-plan="7d" role="tab">7 дней</button>
+      </div>
+      <div class="mode-caption" id="planModeCaption">12 часов · 4 дня</div>
+    </div>
+
+    <div class="plan-wrap" id="planContent"></div>
+  </section>
+</main>
+
+<div class="dialog-backdrop" id="confirmDialog" hidden>
+  <div class="dialog" role="alertdialog" aria-modal="true" aria-labelledby="dialogTitle" aria-describedby="dialogText">
+    <div class="dialog-icon" id="dialogIcon" aria-hidden="true">↺</div>
+    <h2 id="dialogTitle">Сбросить прогресс?</h2>
+    <p id="dialogText">Это действие нельзя отменить.</p>
+    <div class="dialog-actions">
+      <button class="btn btn-quiet" id="dialogCancel" type="button">Отмена</button>
+      <button class="btn btn-danger" id="dialogConfirm" type="button">Сбросить</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span>English Lab · 131 irregular verb + 18 modal verbs + 12 tenses</span>
+  <span>Прогресс хранится в этом браузере · работает офлайн</span>
+</footer>
+
+<script src="data.js"></script>
+<script src="modals.js"></script>
+<script src="tenses.js"></script>
+<script src="plans.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

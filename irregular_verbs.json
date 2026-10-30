@@ -1,0 +1,1181 @@
+[
+  {
+    "i": "arise",
+    "p": "arose",
+    "pp": "arisen",
+    "ru": "возникать",
+    "day": 1,
+    "note": "Не путать с rise: arise – arose – arisen, rise – rose – risen.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "awake",
+    "p": "awoke",
+    "pp": "awoken",
+    "ru": "просыпаться",
+    "day": 1,
+    "note": "В таблице awoke/awoken; также встречается правильное awaked.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "be",
+    "p": "was, were",
+    "pp": "been",
+    "ru": "быть",
+    "day": 1,
+    "note": "Past: was (ед. ч.), were (мн. ч.). В ответе нужны обе формы.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "bear",
+    "p": "bore",
+    "pp": "born/borne",
+    "ru": "нести; рождаться, рожать",
+    "day": 1,
+    "note": "born — родиться; borne — нести/рожать (в пассиве).",
+    "pattern": "ABC"
+  },
+  {
+    "i": "beat",
+    "p": "beat",
+    "pp": "beaten",
+    "ru": "бить",
+    "day": 1,
+    "note": "Past не меняется: beat – beat – beaten.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "become",
+    "p": "became",
+    "pp": "become",
+    "ru": "становиться",
+    "day": 1,
+    "note": "Как come: become – became – become.",
+    "pattern": "ABA"
+  },
+  {
+    "i": "begin",
+    "p": "began",
+    "pp": "begun",
+    "ru": "начинать",
+    "day": 1,
+    "note": "Рифмуется с drink – drank – drunk.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "bend",
+    "p": "bent",
+    "pp": "bent",
+    "ru": "гнуть(ся)",
+    "day": 1,
+    "note": "Как lend – lent – lent.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "bind",
+    "p": "bound",
+    "pp": "bound",
+    "ru": "связывать",
+    "day": 1,
+    "note": "Как find – found – found.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "bite",
+    "p": "bit",
+    "pp": "bitten",
+    "ru": "кусать",
+    "day": 1,
+    "note": "Не путать с beat – beat – beaten.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "blow",
+    "p": "blew",
+    "pp": "blown",
+    "ru": "дуть",
+    "day": 1,
+    "note": "Серия -ew/-own: blow, grow, know, throw.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "break",
+    "p": "broke",
+    "pp": "broken",
+    "ru": "ломать",
+    "day": 1,
+    "note": "Как speak – spoke – spoken и wake – woke – woken.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "breed",
+    "p": "bred",
+    "pp": "bred",
+    "ru": "выращивать, разводить",
+    "day": 1,
+    "note": "Как feed – fed – fed и lead – led – led.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "bring",
+    "p": "brought",
+    "pp": "brought",
+    "ru": "приносить",
+    "day": 1,
+    "note": "Как buy – bought – bought и think – thought – thought.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "broadcast",
+    "p": "broadcast",
+    "pp": "broadcast",
+    "ru": "вещать",
+    "day": 1,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "build",
+    "p": "built",
+    "pp": "built",
+    "ru": "строить",
+    "day": 1,
+    "note": "Как send – sent – sent.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "burn",
+    "p": "burnt/burned",
+    "pp": "burnt/burned",
+    "ru": "жечь; гореть",
+    "day": 1,
+    "note": "Два равноправных варианта: burnt/burned.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "burst",
+    "p": "burst",
+    "pp": "burst",
+    "ru": "взрываться",
+    "day": 1,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "buy",
+    "p": "bought",
+    "pp": "bought",
+    "ru": "покупать",
+    "day": 1,
+    "note": "Как bring – brought – brought.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "can",
+    "p": "could",
+    "pp": "—",
+    "ru": "мочь; уметь",
+    "day": 1,
+    "note": "Модальный: Participle II нет; Past — could.",
+    "pattern": "MODAL"
+  },
+  {
+    "i": "catch",
+    "p": "caught",
+    "pp": "caught",
+    "ru": "ловить",
+    "day": 1,
+    "note": "Как teach – taught – taught.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "choose",
+    "p": "chose",
+    "pp": "chosen",
+    "ru": "выбирать",
+    "day": 1,
+    "note": "Как freeze – froze – frozen.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "come",
+    "p": "came",
+    "pp": "come",
+    "ru": "приходить, приезжать",
+    "day": 2,
+    "note": "Participle II совпадает с Infinitive.",
+    "pattern": "ABA"
+  },
+  {
+    "i": "cost",
+    "p": "cost",
+    "pp": "cost",
+    "ru": "стоить",
+    "day": 2,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "cut",
+    "p": "cut",
+    "pp": "cut",
+    "ru": "резать",
+    "day": 2,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "deal",
+    "p": "dealt",
+    "pp": "dealt",
+    "ru": "иметь дело",
+    "day": 2,
+    "note": "Как mean – meant – meant.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "dig",
+    "p": "dug",
+    "pp": "dug",
+    "ru": "копать",
+    "day": 2,
+    "note": "Как spin – spun – spun.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "do",
+    "p": "did",
+    "pp": "done",
+    "ru": "делать",
+    "day": 2,
+    "note": "Как go – went – gone.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "draw",
+    "p": "drew",
+    "pp": "drawn",
+    "ru": "рисовать",
+    "day": 2,
+    "note": "Как withdraw – withdrew – withdrawn.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "dream",
+    "p": "dreamt/dreamed",
+    "pp": "dreamt/dreamed",
+    "ru": "мечтать",
+    "day": 2,
+    "note": "Два варианта: dreamt/dreamed.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "drink",
+    "p": "drank",
+    "pp": "drunk",
+    "ru": "пить",
+    "day": 2,
+    "note": "Серия -ink/-ank/-unk: drink, sink, shrink.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "drive",
+    "p": "drove",
+    "pp": "driven",
+    "ru": "вести (машину)",
+    "day": 2,
+    "note": "Как ride – rode – ridden.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "eat",
+    "p": "ate",
+    "pp": "eaten",
+    "ru": "кушать, есть",
+    "day": 2,
+    "note": "Не путать с fall – fell – fallen.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "fall",
+    "p": "fell",
+    "pp": "fallen",
+    "ru": "падать",
+    "day": 2,
+    "note": "Не путать с feel – felt – felt.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "feed",
+    "p": "fed",
+    "pp": "fed",
+    "ru": "кормить",
+    "day": 2,
+    "note": "Как breed – bred – bred.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "feel",
+    "p": "felt",
+    "pp": "felt",
+    "ru": "чувствовать",
+    "day": 2,
+    "note": "Как leave – left – left.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "fight",
+    "p": "fought",
+    "pp": "fought",
+    "ru": "драться, сражаться",
+    "day": 2,
+    "note": "Как bring – brought – brought.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "find",
+    "p": "found",
+    "pp": "found",
+    "ru": "находить",
+    "day": 2,
+    "note": "Не путать с found (основывать) — это правильный глагол.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "fly",
+    "p": "flew",
+    "pp": "flown",
+    "ru": "летать",
+    "day": 2,
+    "note": "Как blow – blew – blown.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "forbid",
+    "p": "forbade",
+    "pp": "forbidden",
+    "ru": "запрещать",
+    "day": 2,
+    "note": "Как forget и forgive — приставка for-.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "forget",
+    "p": "forgot",
+    "pp": "forgotten",
+    "ru": "забывать",
+    "day": 2,
+    "note": "Не путать с get – got – got.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "forgive",
+    "p": "forgave",
+    "pp": "forgiven",
+    "ru": "прощать",
+    "day": 2,
+    "note": "Как give – gave – given.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "freeze",
+    "p": "froze",
+    "pp": "frozen",
+    "ru": "замораживать",
+    "day": 2,
+    "note": "Как choose – chose – chosen.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "get",
+    "p": "got",
+    "pp": "got",
+    "ru": "получать",
+    "day": 2,
+    "note": "В таблице got/got; американское gotten — другой вариант.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "give",
+    "p": "gave",
+    "pp": "given",
+    "ru": "давать",
+    "day": 3,
+    "note": "Как forgive – forgave – forgiven.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "go",
+    "p": "went",
+    "pp": "gone",
+    "ru": "идти",
+    "day": 3,
+    "note": "Как do – did – done.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "grind",
+    "p": "ground",
+    "pp": "ground",
+    "ru": "молоть",
+    "day": 3,
+    "note": "Как find – found – found.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "grow",
+    "p": "grew",
+    "pp": "grown",
+    "ru": "расти",
+    "day": 3,
+    "note": "Как blow – blew – blown.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "hang",
+    "p": "hung",
+    "pp": "hung",
+    "ru": "висеть; вешать",
+    "day": 3,
+    "note": "hung — вешать/висеть; hanged — казнить (другое значение).",
+    "pattern": "ABB"
+  },
+  {
+    "i": "have",
+    "p": "had",
+    "pp": "had",
+    "ru": "иметь",
+    "day": 3,
+    "note": "Как make – made – made.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "hear",
+    "p": "heard",
+    "pp": "heard",
+    "ru": "слышать",
+    "day": 3,
+    "note": "Не путать с bear – bore – born.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "hide",
+    "p": "hid",
+    "pp": "hidden",
+    "ru": "прятать(ся)",
+    "day": 3,
+    "note": "Как bite – bit – bitten.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "hit",
+    "p": "hit",
+    "pp": "hit",
+    "ru": "ударять, попадать",
+    "day": 3,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "hold",
+    "p": "held",
+    "pp": "held",
+    "ru": "держать",
+    "day": 3,
+    "note": "Не путать с stand – stood – stood.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "hurt",
+    "p": "hurt",
+    "pp": "hurt",
+    "ru": "причинять боль",
+    "day": 3,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "keep",
+    "p": "kept",
+    "pp": "kept",
+    "ru": "держать",
+    "day": 3,
+    "note": "Как sleep – slept – slept.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "know",
+    "p": "knew",
+    "pp": "known",
+    "ru": "знать",
+    "day": 3,
+    "note": "Как blow – blew – blown.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "lay",
+    "p": "laid",
+    "pp": "laid",
+    "ru": "класть",
+    "day": 3,
+    "note": "lay – laid – laid (класть). Не путать с lie – lay – lain (лежать).",
+    "pattern": "ABB"
+  },
+  {
+    "i": "lead",
+    "p": "led",
+    "pp": "led",
+    "ru": "вести",
+    "day": 3,
+    "note": "Пишется led, а не lead; ср. read – read – read.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "lean",
+    "p": "leant/leaned",
+    "pp": "leant/leaned",
+    "ru": "опираться",
+    "day": 3,
+    "note": "Два варианта: leant/leaned.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "learn",
+    "p": "learnt/learned",
+    "pp": "learnt/learned",
+    "ru": "учить",
+    "day": 3,
+    "note": "Два варианта: learnt/learned.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "leave",
+    "p": "left",
+    "pp": "left",
+    "ru": "оставлять; покидать",
+    "day": 3,
+    "note": "Как feel – felt – felt.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "lend",
+    "p": "lent",
+    "pp": "lent",
+    "ru": "одалживать",
+    "day": 3,
+    "note": "Как bend – bent – bent.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "let",
+    "p": "let",
+    "pp": "let",
+    "ru": "давать возможность",
+    "day": 3,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "lie",
+    "p": "lay",
+    "pp": "lain",
+    "ru": "лежать",
+    "day": 3,
+    "note": "lie – lay – lain (лежать). Ложь — lie – lied (правильный); класть — lay – laid.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "light",
+    "p": "lit/lighted",
+    "pp": "lit/lighted",
+    "ru": "освещать",
+    "day": 3,
+    "note": "Два варианта: lit/lighted.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "lose",
+    "p": "lost",
+    "pp": "lost",
+    "ru": "терять",
+    "day": 4,
+    "note": "Не путать с loose (свободный) — это прилагательное.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "make",
+    "p": "made",
+    "pp": "made",
+    "ru": "делать",
+    "day": 4,
+    "note": "Как have – had – had.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "may",
+    "p": "might",
+    "pp": "—",
+    "ru": "мочь; иметь возможность",
+    "day": 4,
+    "note": "Модальный: Participle II нет; Past — might.",
+    "pattern": "MODAL"
+  },
+  {
+    "i": "mean",
+    "p": "meant",
+    "pp": "meant",
+    "ru": "значить",
+    "day": 4,
+    "note": "Как deal – dealt – dealt.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "meet",
+    "p": "met",
+    "pp": "met",
+    "ru": "встречать",
+    "day": 4,
+    "note": "Как feed – fed – fed.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "mistake",
+    "p": "mistook",
+    "pp": "mistaken",
+    "ru": "ошибаться",
+    "day": 4,
+    "note": "Как take – took – taken.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "misunderstand",
+    "p": "misunderstood",
+    "pp": "misunderstood",
+    "ru": "неправильно понимать",
+    "day": 4,
+    "note": "Как stand – stood – stood.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "overcome",
+    "p": "overcame",
+    "pp": "overcome",
+    "ru": "преодолевать",
+    "day": 4,
+    "note": "Как come – came – come.",
+    "pattern": "ABA"
+  },
+  {
+    "i": "pay",
+    "p": "paid",
+    "pp": "paid",
+    "ru": "платить",
+    "day": 4,
+    "note": "Как say – said – said.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "prove",
+    "p": "proved",
+    "pp": "proved/proven",
+    "ru": "доказывать",
+    "day": 4,
+    "note": "Два варианта Participle II: proved/proven.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "put",
+    "p": "put",
+    "pp": "put",
+    "ru": "класть",
+    "day": 4,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "quit",
+    "p": "quit/quitted",
+    "pp": "quit/quitted",
+    "ru": "покидать",
+    "day": 4,
+    "note": "Два варианта: quit/quitted.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "read",
+    "p": "read",
+    "pp": "read",
+    "ru": "читать",
+    "day": 4,
+    "note": "Пишется одинаково, но произносится: /riːd/ – /red/ – /red/.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "ride",
+    "p": "rode",
+    "pp": "ridden",
+    "ru": "ездить верхом",
+    "day": 4,
+    "note": "Как write – wrote – written.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "ring",
+    "p": "rang",
+    "pp": "rung",
+    "ru": "звонить",
+    "day": 4,
+    "note": "Серия -ing/-ang/-ung: ring, sing, swim.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "rise",
+    "p": "rose",
+    "pp": "risen",
+    "ru": "подниматься",
+    "day": 4,
+    "note": "Как arise – arose – arisen.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "run",
+    "p": "ran",
+    "pp": "run",
+    "ru": "бежать",
+    "day": 4,
+    "note": "Participle II совпадает с Infinitive.",
+    "pattern": "ABA"
+  },
+  {
+    "i": "saw",
+    "p": "sawed",
+    "pp": "sawn",
+    "ru": "пилить",
+    "day": 4,
+    "note": "Не путать с saw — Past от see.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "say",
+    "p": "said",
+    "pp": "said",
+    "ru": "говорить",
+    "day": 4,
+    "note": "Как pay – paid – paid.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "see",
+    "p": "saw",
+    "pp": "seen",
+    "ru": "видеть",
+    "day": 4,
+    "note": "Не путать с saw (пилить).",
+    "pattern": "ABC"
+  },
+  {
+    "i": "seek",
+    "p": "sought",
+    "pp": "sought",
+    "ru": "искать",
+    "day": 4,
+    "note": "Как think – thought – thought.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "sell",
+    "p": "sold",
+    "pp": "sold",
+    "ru": "продавать",
+    "day": 4,
+    "note": "Как tell – told – told.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "send",
+    "p": "sent",
+    "pp": "sent",
+    "ru": "посылать",
+    "day": 5,
+    "note": "Как spend – spent – spent.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "set",
+    "p": "set",
+    "pp": "set",
+    "ru": "устанавливать",
+    "day": 5,
+    "note": "Все три формы одинаковые; ср. sit – sat – sat.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "sew",
+    "p": "sewed",
+    "pp": "sewn/sewed",
+    "ru": "шить",
+    "day": 5,
+    "note": "Два варианта Participle II: sewn/sewed.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "shake",
+    "p": "shook",
+    "pp": "shaken",
+    "ru": "трясти",
+    "day": 5,
+    "note": "Как take – took – taken.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "shine",
+    "p": "shone",
+    "pp": "shone",
+    "ru": "светить; сиять",
+    "day": 5,
+    "note": "Как show – showed – shown.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "shoot",
+    "p": "shot",
+    "pp": "shot",
+    "ru": "стрелять",
+    "day": 5,
+    "note": "Не путать с shut – shut – shut.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "show",
+    "p": "showed",
+    "pp": "shown",
+    "ru": "показывать",
+    "day": 5,
+    "note": "Как shine – shone – shone.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "shrink",
+    "p": "shrank",
+    "pp": "shrunk",
+    "ru": "сокращаться, сжиматься",
+    "day": 5,
+    "note": "Как drink – drank – drunk.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "shut",
+    "p": "shut",
+    "pp": "shut",
+    "ru": "закрывать",
+    "day": 5,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "sing",
+    "p": "sang",
+    "pp": "sung",
+    "ru": "петь",
+    "day": 5,
+    "note": "Как ring – rang – rung.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "sink",
+    "p": "sank",
+    "pp": "sunk",
+    "ru": "тонуть",
+    "day": 5,
+    "note": "Как drink – drank – drunk.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "sit",
+    "p": "sat",
+    "pp": "sat",
+    "ru": "сидеть",
+    "day": 5,
+    "note": "Не путать с set – set – set.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "sleep",
+    "p": "slept",
+    "pp": "slept",
+    "ru": "спать",
+    "day": 5,
+    "note": "Как keep – kept – kept.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "slide",
+    "p": "slid",
+    "pp": "slid",
+    "ru": "скользить",
+    "day": 5,
+    "note": "Не путать с bite – bit – bitten.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "smell",
+    "p": "smelt",
+    "pp": "smelt",
+    "ru": "пахнуть; нюхать",
+    "day": 5,
+    "note": "В таблице smelt; также допустимо smelled.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "speak",
+    "p": "spoke",
+    "pp": "spoken",
+    "ru": "говорить",
+    "day": 5,
+    "note": "Как break – broke – broken.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "spell",
+    "p": "spelt",
+    "pp": "spelt",
+    "ru": "читать по буквам",
+    "day": 5,
+    "note": "В таблице spelt; также допустимо spelled.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "spend",
+    "p": "spent",
+    "pp": "spent",
+    "ru": "тратить",
+    "day": 5,
+    "note": "Как send – sent – sent.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "spin",
+    "p": "spun",
+    "pp": "spun",
+    "ru": "вращаться",
+    "day": 5,
+    "note": "Как dig – dug – dug.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "split",
+    "p": "split",
+    "pp": "split",
+    "ru": "расщеплять(ся)",
+    "day": 5,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "spoil",
+    "p": "spoilt/spoiled",
+    "pp": "spoilt/spoiled",
+    "ru": "портить",
+    "day": 5,
+    "note": "Два варианта: spoilt/spoiled.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "spread",
+    "p": "spread",
+    "pp": "spread",
+    "ru": "распространять(ся)",
+    "day": 5,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "stand",
+    "p": "stood",
+    "pp": "stood",
+    "ru": "стоять",
+    "day": 6,
+    "note": "Как understand – understood – understood.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "steal",
+    "p": "stole",
+    "pp": "stolen",
+    "ru": "красть",
+    "day": 6,
+    "note": "Не путать с stick – stuck – stuck.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "stick",
+    "p": "stuck",
+    "pp": "stuck",
+    "ru": "приклеивать",
+    "day": 6,
+    "note": "Как strike – struck – struck.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "strike",
+    "p": "struck",
+    "pp": "struck",
+    "ru": "бить; бастовать",
+    "day": 6,
+    "note": "Как stick – stuck – stuck.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "swear",
+    "p": "swore",
+    "pp": "sworn",
+    "ru": "клясться",
+    "day": 6,
+    "note": "Как wear – wore – worn.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "swell",
+    "p": "swelled",
+    "pp": "swollen",
+    "ru": "вздуваться",
+    "day": 6,
+    "note": "Как show – showed – shown.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "swim",
+    "p": "swam",
+    "pp": "swum",
+    "ru": "плавать",
+    "day": 6,
+    "note": "Как sing – sang – sung.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "take",
+    "p": "took",
+    "pp": "taken",
+    "ru": "брать",
+    "day": 6,
+    "note": "Как shake – shook – shaken.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "teach",
+    "p": "taught",
+    "pp": "taught",
+    "ru": "учить",
+    "day": 6,
+    "note": "Как catch – caught – caught.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "tear",
+    "p": "tore",
+    "pp": "torn",
+    "ru": "рвать",
+    "day": 6,
+    "note": "Как wear – wore – worn.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "tell",
+    "p": "told",
+    "pp": "told",
+    "ru": "рассказывать, говорить",
+    "day": 6,
+    "note": "Как sell – sold – sold.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "think",
+    "p": "thought",
+    "pp": "thought",
+    "ru": "думать",
+    "day": 6,
+    "note": "Как bring – brought – brought.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "throw",
+    "p": "threw",
+    "pp": "thrown",
+    "ru": "бросать",
+    "day": 6,
+    "note": "Как blow – blew – blown.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "thrust",
+    "p": "thrust",
+    "pp": "thrust",
+    "ru": "толкать",
+    "day": 6,
+    "note": "Все три формы одинаковые.",
+    "pattern": "AAA"
+  },
+  {
+    "i": "understand",
+    "p": "understood",
+    "pp": "understood",
+    "ru": "понимать",
+    "day": 6,
+    "note": "Как stand – stood – stood.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "wake",
+    "p": "woke",
+    "pp": "woken",
+    "ru": "просыпаться; будить",
+    "day": 6,
+    "note": "Как break – broke – broken.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "wear",
+    "p": "wore",
+    "pp": "worn",
+    "ru": "носить (одежду)",
+    "day": 6,
+    "note": "Как swear – swore – sworn.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "weave",
+    "p": "wove",
+    "pp": "woven",
+    "ru": "ткать",
+    "day": 6,
+    "note": "Как wear – wore – worn.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "win",
+    "p": "won",
+    "pp": "won",
+    "ru": "выигрывать",
+    "day": 6,
+    "note": "Как run – ran – run.",
+    "pattern": "ABB"
+  },
+  {
+    "i": "withdraw",
+    "p": "withdrew",
+    "pp": "withdrawn",
+    "ru": "брать назад; отзывать",
+    "day": 6,
+    "note": "Как draw – drew – drawn.",
+    "pattern": "ABC"
+  },
+  {
+    "i": "write",
+    "p": "wrote",
+    "pp": "written",
+    "ru": "писать",
+    "day": 6,
+    "note": "Как ride – rode – ridden.",
+    "pattern": "ABC"
+  }
+]
